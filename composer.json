@@ -1,0 +1,19 @@
+{
+    "name": "eluhr/yii2-qcode-decoder",
+    "description": "Yii2 Wrapper for cirocosta/qcode-decoder",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Elias Luhr",
+            "email": "elias.luhr@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/qcode-decoder": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "eluhr\\qcodedecoder\\": "src/"
+        }
+    }
+}
