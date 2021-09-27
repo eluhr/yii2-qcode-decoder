@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  */
 class QCodeDecoderAssetBundle extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/qcode-decoder';
+    public $sourcePath = '@bower/qcode-decoder';
 
     public $js = [
         'build/qcode-decoder.min.js'
